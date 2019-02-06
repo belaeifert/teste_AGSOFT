@@ -1,0 +1,36 @@
+<div id="notifications-feed" class="notification-menu">
+    <h5>Notifications feed </h5>
+    <p>Use hitters tp see specific type of content</p>
+
+    <ul>
+        <li class="button-feed button-selected"> <i class="far fa-bell"></i> </li>
+        <li class="button-feed"> <i class="far fa-comment"></i> </li>
+        <li class="button-feed"> <i class="fas fa-mobile"></i> </li>
+        <li class="button-feed"> <i class="far fa-hand-point-up"></i> </li>
+    </ul>
+
+    <div class="day-separator"> 
+        
+        <p> Today </p> 
+    </div>
+
+    <div id="messages-notification">
+        <div id="message-title" *ngFor="let notification of notifications">
+          <div class="icon-notification-messages">
+              <i class="far fa-comment" *ngIf="isWroteNotification(notification.type)"> </i> 
+              <i class="fas fa-mobile" *ngIf="!isWroteNotification(notification.type)">  </i>
+          </div>
+          <div class="information-notification-messages">
+              <p class="spotlight"> {{ notification.sender}} 
+                <span class="detail"> {{ notification.type}} 
+                  <br />
+                    {{notification.date}} at {{notification.hour}}
+                </span>
+              </p> 
+              <p> </p>
+              <p> {{notification.message}}</p>
+          </div>
+
+        </div>
+    </div>
+</div>

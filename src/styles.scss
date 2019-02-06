@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~material-design-icons/iconfont/material-icons.css';
+
+.navbar-position{
+    align: left; 
+}
+
+.nav-link{
+    color: #808080;
+}
+
+body{
+    font-family: Dosis;   
+    color : #808080;
+
+    a {
+        color: #808080;
+    }
+
+    ul{
+        color: white;
+    }
+}
+
+.spotlight{
+    color: #0321d7;
+    font-weight: bold;
+    text-align: left;
+}
+
+.detail{
+    color: #C0C0C0;
+    font-size: 70%;
+    margin: auto;
+    text-align: left;
+}

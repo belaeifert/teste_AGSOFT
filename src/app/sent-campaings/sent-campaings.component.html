@@ -1,0 +1,38 @@
+<div>
+    <h2> Lastest campaigns </h2>
+</div>
+
+<div>
+  <table>
+    <thead>
+      <th class="title"> campaigns title </th>
+      <th> recipients </th>
+      <th> opened </th>
+      <th> CTA </th>
+      <th> Responses </th>
+      <th> new messages </th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let campaign of campaigns"> 
+            <td class="title"> 
+              <p class="spotlight "> {{campaign.campaignsTitle}}
+                <br />
+                <span class="detail "> Sent on {{campaign.date}} at {{campaign.hour}} </span>
+              </p>
+            </td>
+            <td> {{campaign.components}} </td>
+            <td> {{campaign.opened}} </td>
+            <td> {{campaign.cta}} </td>
+            <td> {{campaign.responses}} </td>
+            <td> 
+              <!-- <app-qtd-messages [qtdMessagesComponent]="campaign.newMessages"></app-qtd-messages> -->
+              <div id="numeroMessages" class="number-messages" *ngIf="!isEmpty(campaign.newMessages)">
+                  {{campaign.newMessages}}
+              </div>
+              <div id="numeroMessages" class="empty-messages" *ngIf="isEmpty(campaign.newMessages)">
+              </div>
+            </td>
+        </tr>
+    </tbody>
+  </table>
+</div>

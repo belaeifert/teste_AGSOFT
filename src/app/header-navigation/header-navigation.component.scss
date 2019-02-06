@@ -1,0 +1,69 @@
+.logo{
+    width: 40px;
+    height: 80px;
+}
+
+.menu{
+    float: right;
+    text-transform: uppercase;
+    display: inline;
+    max-height: 80px;
+}
+
+.menu-separator{
+    border-right:1px solid #021ab9;
+    height:80px;
+    margin-top: 0px;
+}
+
+.user-info{
+    display: inline;
+    margin: 8px;
+    padding: 8px;
+    color: white; 
+}
+
+#alert{
+    margin: 33px;
+    color: white;
+}
+
+#user-picture{
+    margin: 15px;
+    width: auto;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid white
+}
+
+nav{
+    background-color: #0321d7;
+    width: 100%;
+    height: 80px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 15px;
+    padding: 15px;
+}
+
+nav ul li{
+    display: inline;
+    margin: 15px;
+    padding: 15px;
+    
+}
+
+nav ul li a {
+    color: white;
+}
+
+h6{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+p{
+    font-size: 70%;
+}

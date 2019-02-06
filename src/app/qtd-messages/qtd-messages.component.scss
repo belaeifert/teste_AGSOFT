@@ -1,0 +1,25 @@
+.number-messages{
+    border: 3px solid #0321d7;
+    height: 3px;
+    width: 3px;
+    border-radius: 100%;
+    background-color:#0321d7;
+    
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-size: 60%;
+}
+
+.empty-messages{
+    border: 1px solid #C0C0C0;
+    height: 5px;
+    width: 5px;
+    border-radius: 100%;
+    
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+
+}
