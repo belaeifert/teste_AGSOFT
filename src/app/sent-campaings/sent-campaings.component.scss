@@ -6,16 +6,22 @@ h2{
     margin-left: 10%;
 }
 
+.sent-campaigns{
+    width: 70%;
+}
+
 .title{
+    margin-top: 15px; 
     width: 30%;
 }
+
 
 // TABLE
 
 table{
     margin-left: 10%;
-    margin-top: 5%;
-    width: 60%;
+    margin-top: 15%;
+    width: 90%;
 
     th{
         display: table-cell;
@@ -26,9 +32,10 @@ table{
         text-transform: uppercase;
 
     }
-
+  
     td{
         text-align: center; 
     }
+
 }
 
