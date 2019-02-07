@@ -25,12 +25,7 @@
             <td> {{campaign.cta}} </td>
             <td> {{campaign.responses}} </td>
             <td> 
-              <!-- <app-qtd-messages [qtdMessagesComponent]="campaign.newMessages"></app-qtd-messages> -->
-              <div id="numeroMessages" class="number-messages" *ngIf="!isEmpty(campaign.newMessages)">
-                  {{campaign.newMessages}}
-              </div>
-              <div id="numeroMessages" class="empty-messages" *ngIf="isEmpty(campaign.newMessages)">
-              </div>
+                {{campaign.newMessages}}
             </td>
         </tr>
     </tbody>

@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./notifications-feed.component.scss']
 })
 export class NotificationsFeedComponent implements OnInit {
+  $: any;
   notifications = [
     {
       type: "wrote",
@@ -36,5 +37,4 @@ export class NotificationsFeedComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }

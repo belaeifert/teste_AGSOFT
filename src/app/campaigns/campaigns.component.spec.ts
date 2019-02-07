@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { QtdMessagesComponent } from './qtd-messages.component';
+import { CampaignsComponent } from './campaigns.component';
 
-describe('QtdMessagesComponent', () => {
-  let component: QtdMessagesComponent;
-  let fixture: ComponentFixture<QtdMessagesComponent>;
+describe('CampaignsComponent', () => {
+  let component: CampaignsComponent;
+  let fixture: ComponentFixture<CampaignsComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ QtdMessagesComponent ]
+      declarations: [ CampaignsComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(QtdMessagesComponent);
+    fixture = TestBed.createComponent(CampaignsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

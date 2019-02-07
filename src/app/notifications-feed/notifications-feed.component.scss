@@ -1,7 +1,42 @@
+// GENERAL
 .notification-menu{
     width: 25%;
     float: right;
+    justify-content: center;
 }
+
+li:hover{
+    color: #0321d7;
+}
+
+h5{
+    font-weight: bold;
+}
+
+ul, ol, li {
+    list-style: none;
+    padding: 0px;
+}
+
+// ICONS NOTIFICATON
+
+.icon-type{
+    background-color: #DCDCDC;
+    padding: 5%;
+    width: 50px;
+    height: auto;
+    border-radius: 15%;
+    vertical-align: middle;
+    align-content: center;
+    display: inline-block;
+    margin: 1px;
+}
+
+.icon-selected{
+    background-color: #0321d7;
+}
+
+// MESSAGES
 
 .day-separator{
     font-weight: bold;
@@ -23,27 +58,3 @@
     margin-left: 15%;
 }
 
-.button-feed{
-    background-color: #DCDCDC;
-    padding: 5%;
-    width: 50px;
-    height: auto;
-    border-radius: 15%;
-    vertical-align: middle;
-    align-content: center;
-    display: inline-block;
-    margin: 1px;
-}
-
-.button-selected{
-    background-color: #0321d7;
-}
-
-h5{
-    font-weight: bold;
-}
-
-ul, ol, li {
-    list-style: none;
-    padding: 0px;
-}

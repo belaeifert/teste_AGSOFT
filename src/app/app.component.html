@@ -1,36 +1,50 @@
-  <!-- Navigation-->
-  <!--
-  <div>
-      <nav class="navbar navbar-expand-lg navbar-light fixed-top text-uppercase" style="background-color: #0321d7;">
-        <div class="container">
-            <div class="row">
-                <div class="col-8">
-                  <a class="navbar-brand" href="#">COLOCAR LOGO</a>
-                </div>
-                <div class="col-4 navbar-position">
-                    <div class="navbar-collapse collapse" id="navbarResponsive">
-                        <ul class="navbar-nav ml-auto">
-                          <li class="nav-item active mx-0 mx-lg-1">
-                            <a class="nav-link" href="#">campaings <span class="sr-only">(current)</span></a>
-                          </li>
-                          <li class="nav-item mx-0 mx-lg-1">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">CUSTOMERS</a>
-                          </li>
-                          <li class="nav-item mx-0 mx-lg-1">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">REPORTS</a>
-                          </li>
-                        </ul>
-                      </div>
-                </div>
-            </div>
-        </div>   
-      </nav>
-    </div>
-  -->
-<app-header-navigation> </app-header-navigation>
+<!-- Navigation-->
 
-<app-sub-menu></app-sub-menu>
+  <nav>
+      <!--<img class="logo" src="#" alt="logo-hyundai"/> -->
+        <div class="logo"> 
+          <a href="#"> DESAFIO - AGSOFT </a>
+        </div>
+        <div class="menu user-info">
+            <i class="fas fa-ellipsis-h"></i>
+        </div>
+        <div class="menu user-info">
+          <h6 id="user-name"> Isabela Eifert </h6>
+          <p id="user-ocupation"> Softwate developer</p>
+        </div>
+        <div class="menu">
+          <img id="user-picture" src="assets/imgs/user-picture.png" alt="userpicture">
+        </div>
+        <div class="menu menu-separator">
+          <i id="alert" class="far fa-bell"></i>
+        </div>
+        <div id="navigation" class="menu menu-separator"> 
+          <ul>
+            <li>
+              <a href="#" class="selected"> campaigns </a>
+            </li>
+            <li>
+              <a href="#"> customers </a>
+            </li>
+            <li>
+              <a href="#"> reports </a>
+            </li>
+          </ul>
+        </div>  
+  </nav>
 
-<app-notifications-feed></app-notifications-feed>
+<!-- CONTENT-->
+<div class="content">
+  <div class="content-inside">
+    <app-campaigns></app-campaigns>
+  </div>
+</div>
 
-<app-sent-campaings></app-sent-campaings>
+<!--  FOOTER -->
+<footer class="footer">
+  <div id="info-footer">
+    <p id="title-footer"> 2017 - Dealer Messenger</p>
+    <p> Contact Support - Dealer Mensager Acadamy</p>
+  </div>
+
+</footer>

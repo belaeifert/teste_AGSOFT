@@ -1,7 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+/* IMPORTS */
 
 @import '~bootstrap/dist/css/bootstrap.min.css';
-@import '~material-design-icons/iconfont/material-icons.css';
+
+/* VARIABLE */
+
+$base-color: #0321d7;
+$detail-color:#C0C0C0;
 
 .navbar-position{
     align: left; 
@@ -12,8 +16,10 @@
 }
 
 body{
-    font-family: Dosis;   
+    font-family: Dosis, sans-serif;   
     color : #808080;
+    height: 100%;
+    margin: 0;
 
     a {
         color: #808080;
@@ -25,14 +31,15 @@ body{
 }
 
 .spotlight{
-    color: #0321d7;
+    color: $base-color;
     font-weight: bold;
     text-align: left;
 }
 
 .detail{
-    color: #C0C0C0;
+    color: $detail-color;
     font-size: 70%;
     margin: auto;
     text-align: left;
 }
+

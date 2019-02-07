@@ -1,3 +1,7 @@
+/*
+   SUB MENU
+*/
+
 .sub-menu{
     margin-top: 10px;
     margin-left: 10px;
@@ -6,7 +10,7 @@
     display: inline-block;
 }
 
-.selected{
+.item-selected{
     border-bottom: 3px solid #0321d7;
     font-weight: bold;
 
@@ -16,7 +20,7 @@
 }
 
 li:hover{
-    border-bottom: 3px solid #0378d7;
+    color:  #0321d7;
     font-weight: bold;
 }
 
@@ -28,19 +32,6 @@ li:hover{
     font-weight: bold;
 }
 
-/*
-margin-top: 5px;
-    width: 200px;
-    height: auto;
-    background-color: #0321d7;
-    color: white;
-    float: right;
-    vertical-align: middle;
-    border-radius: 15%;
-*/
-
 #submenu{
     width: 100%;
 }
-
-
